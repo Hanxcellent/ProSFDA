@@ -1,0 +1,17 @@
+MODEL:
+  GLOBAL: anomalyclip
+  LOCAL: resnet50
+
+SETTING:
+  DATASET: mvtecad
+  SEED: 2020
+DATA:
+  RESIZE_SIZE: 224
+  CROP_SIZE: 224
+
+OPTIM:
+  LR: 0.01
+
+TRAIN:
+  BATCH_SIZE: 128
+  LOCAL_EPOCH: 100

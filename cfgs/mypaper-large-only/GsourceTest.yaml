@@ -1,0 +1,14 @@
+MODEL:
+  GLOBAL: anomalyclip
+
+SETTING:
+  MODE: test
+  DATASET: mypaper-large-only
+  SEED: 2020
+DATA:
+  RESIZE_SIZE: 336
+  CROP_SIZE: 336
+TEST:
+  BATCH_SIZE: 1
+  MODEL: global
+  CKPT_PATH: /remote-home/iot_hanxiang/ProSFDA/output/mypaper-large-only/TotalTrain/GsourceTrain/250610144203/latest.pt
