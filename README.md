@@ -43,4 +43,4 @@ bash demo.sh
 ```
 
 #### 4 Get Output
-测试结果图和日志的输出总目录可由`DIR.OUTPUT`参数指定，默认为`./output/`。
+- 测试结果图和日志的输出总目录可由`DIR.OUTPUT`参数指定，默认为`./output/`。
